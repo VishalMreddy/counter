@@ -1,0 +1,39 @@
+.all{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+  font-family: 'Roboto', sans-serif;
+}
+.redZero{
+  color: black;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+button{
+  background-color: transparent;
+  margin-left: 10px;
+  border: transparent;
+  background-color: white;
+  margin: 10px;
+  width: 70px;
+  height: 40px;
+  font-size: 15px;
+  color: black;
+  border-radius: 5px;
+}
+
+
+button:hover{
+  background-color: rgb(96, 96, 171);
+  color: white;
+  transition: 0.5s;
+  outline: none;
+}
+h1{
+  color: rgb(44, 0, 85);
+}
